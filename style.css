@@ -45,8 +45,8 @@ img{
     flex-wrap: wrap;
     z-index: -1;
     overflow: hidden;
-}
-.bg-top {
+    background: url(./images/bg-pattern-bottom.svg) bottom right, url(./images/bg-pattern-top.svg) top left;
+/* .bg-top {
         position: relative;
         top: -30vh;
         left: -50vw;
@@ -55,6 +55,7 @@ img{
         position: relative;
         top: -20vh;
         right: -50vw;
+} */
 }
 
 #name {
